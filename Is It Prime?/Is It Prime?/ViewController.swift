@@ -19,12 +19,11 @@ class ViewController: UIViewController {
     
     @IBAction func primeButton(sender: AnyObject) {
         
-        let number:Double? = Double(enterNumber.text!)
-        
         if enterNumber.text != nil {
+        
+            let number:Double! = Double(enterNumber.text!)
             
-            
-            if isPrime(number!) == true {
+            if isPrime(number) == true {
                 resultLabel.text = "Number is prime"
             } else {
                 resultLabel.text = "Number is not prime"

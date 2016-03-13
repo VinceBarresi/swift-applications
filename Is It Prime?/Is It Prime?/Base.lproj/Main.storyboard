@@ -17,40 +17,87 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Is It Prime?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cft-BT-h4E">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Is It Prime?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cft-BT-h4E">
                                 <rect key="frame" x="86" y="28" width="259" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="259" id="CMQ-5z-kFz"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="NVg-Qj-GEP"/>
+                                    <constraint firstAttribute="height" constant="21" id="hnl-Cx-qcO"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="259" id="jVT-yh-QWK"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enter a number to see if its a prime" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Qn-vN-ODZ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Enter a number to see if its a prime" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Qn-vN-ODZ">
                                 <rect key="frame" x="86" y="97" width="314" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="HNC-LN-7Io"/>
+                                    <constraint firstAttribute="width" constant="314" id="TRh-d0-cdO"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="314" id="Wtf-LE-gpA"/>
+                                    <constraint firstAttribute="height" constant="21" id="u6L-5X-Ird"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8hP-CN-UdV">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8hP-CN-UdV">
                                 <rect key="frame" x="162" y="276" width="92" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="92" id="3JO-OV-u7Q"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="52" id="Fzh-06-l3D"/>
+                                    <constraint firstAttribute="height" constant="52" id="NkV-7X-kpJ"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="92" id="Ol4-EH-N5i"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Prime?"/>
                                 <connections>
                                     <action selector="primeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rEH-yM-DZx"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Enter Number" borderStyle="roundedRect" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Vdb-pO-6NO">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Enter Number" borderStyle="roundedRect" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Vdb-pO-6NO">
                                 <rect key="frame" x="153" y="166" width="111" height="30"/>
                                 <color key="backgroundColor" red="0.50264056868496154" green="1" blue="0.37444023599700627" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="111" id="2uP-eo-bdY"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="E42-x7-cqy"/>
+                                    <constraint firstAttribute="height" constant="30" id="nYm-aj-uRQ"/>
+                                    <constraint firstAttribute="width" constant="111" id="quS-Wv-cDw"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xml-YM-Dfw">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xml-YM-Dfw">
                                 <rect key="frame" x="27" y="422" width="362" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="IbL-eo-a3E"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="362" id="V5A-gq-dMd"/>
+                                    <constraint firstAttribute="width" constant="362" id="p2D-MA-gH2"/>
+                                    <constraint firstAttribute="height" constant="21" id="w8R-2F-ynO"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5Qn-vN-ODZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="00b-sa-fn6"/>
+                            <constraint firstItem="Vdb-pO-6NO" firstAttribute="top" secondItem="5Qn-vN-ODZ" secondAttribute="bottom" constant="48" id="2xM-KL-NOa"/>
+                            <constraint firstItem="Cft-BT-h4E" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="4if-x2-omd"/>
+                            <constraint firstItem="Vdb-pO-6NO" firstAttribute="top" secondItem="5Qn-vN-ODZ" secondAttribute="bottom" constant="48" id="9Bc-gM-NGT"/>
+                            <constraint firstItem="8hP-CN-UdV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9SD-Dk-SJz"/>
+                            <constraint firstItem="Xml-YM-Dfw" firstAttribute="top" secondItem="8hP-CN-UdV" secondAttribute="bottom" constant="94" id="Ipt-eg-Y8b"/>
+                            <constraint firstItem="8hP-CN-UdV" firstAttribute="top" secondItem="Vdb-pO-6NO" secondAttribute="bottom" constant="80" id="KsW-fL-kAr"/>
+                            <constraint firstItem="Xml-YM-Dfw" firstAttribute="top" secondItem="8hP-CN-UdV" secondAttribute="bottom" constant="94" id="LRX-TR-oGj"/>
+                            <constraint firstItem="8hP-CN-UdV" firstAttribute="top" secondItem="Vdb-pO-6NO" secondAttribute="bottom" constant="80" id="LSz-EH-DuJ"/>
+                            <constraint firstItem="5Qn-vN-ODZ" firstAttribute="top" secondItem="Cft-BT-h4E" secondAttribute="bottom" constant="48" id="RPQ-kK-mVM"/>
+                            <constraint firstItem="Xml-YM-Dfw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bKg-Dk-vQE"/>
+                            <constraint firstItem="Cft-BT-h4E" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bU7-iV-Jlb"/>
+                            <constraint firstItem="Vdb-pO-6NO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="q0b-f3-331"/>
+                            <constraint firstItem="5Qn-vN-ODZ" firstAttribute="top" secondItem="Cft-BT-h4E" secondAttribute="bottom" constant="48" id="uNG-lG-ESb"/>
+                            <constraint firstItem="Cft-BT-h4E" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="wrY-WW-GBw"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="enterNumber" destination="Vdb-pO-6NO" id="Te7-aX-Z6k"/>

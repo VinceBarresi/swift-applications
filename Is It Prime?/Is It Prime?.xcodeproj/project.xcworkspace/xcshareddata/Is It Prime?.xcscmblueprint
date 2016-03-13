@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FD251976E669E00F5FBDF587B31A7BDE3C283ADA+++AE5939F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "FD251976E669E00F5FBDF587B31A7BDE3C283ADA+++AE5939F" : 0,
+    "FD251976E669E00F5FBDF587B31A7BDE3C283ADA+++4A89B3C" : 0,
+    "FD251976E669E00F5FBDF587B31A7BDE3C283ADA+++F76EE44" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "82CE8D6D-7958-45A6-812F-E6F36E6BC14B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "FD251976E669E00F5FBDF587B31A7BDE3C283ADA+++AE5939F" : "swift-applications\/",
+    "FD251976E669E00F5FBDF587B31A7BDE3C283ADA+++4A89B3C" : "",
+    "FD251976E669E00F5FBDF587B31A7BDE3C283ADA+++F76EE44" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Is It Prime?",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Is It Prime?\/Is It Prime?.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:VinceBarresi\/swift-applications.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FD251976E669E00F5FBDF587B31A7BDE3C283ADA+++4A89B3C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:VinceBarresi\/swift-applications.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FD251976E669E00F5FBDF587B31A7BDE3C283ADA+++AE5939F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:VinceBarresi\/cat-years.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FD251976E669E00F5FBDF587B31A7BDE3C283ADA+++F76EE44"
+    }
+  ]
+}
