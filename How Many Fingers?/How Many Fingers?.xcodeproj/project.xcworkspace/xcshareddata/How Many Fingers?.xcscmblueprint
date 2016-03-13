@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FD251976E669E00F5FBDF587B31A7BDE3C283ADA+++AE5939F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "FD251976E669E00F5FBDF587B31A7BDE3C283ADA+++AE5939F" : 0,
+    "FD251976E669E00F5FBDF587B31A7BDE3C283ADA+++7CA641D" : 0,
+    "FD251976E669E00F5FBDF587B31A7BDE3C283ADA+++DDEAEB4" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AA98534F-C8B2-4F26-A91D-7C439B573F7B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "FD251976E669E00F5FBDF587B31A7BDE3C283ADA+++AE5939F" : "swift-applications\/",
+    "FD251976E669E00F5FBDF587B31A7BDE3C283ADA+++7CA641D" : "",
+    "FD251976E669E00F5FBDF587B31A7BDE3C283ADA+++DDEAEB4" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "How Many Fingers?",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "How Many Fingers?\/How Many Fingers?.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:VinceBarresi\/cat-years.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FD251976E669E00F5FBDF587B31A7BDE3C283ADA+++7CA641D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:VinceBarresi\/swift-applications.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FD251976E669E00F5FBDF587B31A7BDE3C283ADA+++AE5939F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:VinceBarresi\/swift-applications.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FD251976E669E00F5FBDF587B31A7BDE3C283ADA+++DDEAEB4"
+    }
+  ]
+}
