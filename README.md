@@ -22,3 +22,7 @@ App to check if a number is a prime number
 ## Stopwatch ##
 
 App to use a stopwatch 
+
+## Times Tables ##
+
+App to calculate times tables using slider
