@@ -1,0 +1,28 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FD251976E669E00F5FBDF587B31A7BDE3C283ADA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "FD251976E669E00F5FBDF587B31A7BDE3C283ADA" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "627AA19F-9039-4D6A-BCFA-D9BE637518E0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "FD251976E669E00F5FBDF587B31A7BDE3C283ADA" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "cat years",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "cat years\/cat years.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:VinceBarresi\/swift-applications.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FD251976E669E00F5FBDF587B31A7BDE3C283ADA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:VinceBarresi\/cat-years.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FD251976E669E00F5FBDF587B31A7BDE3C283ADA"
+    }
+  ]
+}
