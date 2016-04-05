@@ -25,4 +25,4 @@ App to use a stopwatch
 
 ## Times Tables ##
 
-App to calculate times tables up to 20 using slider
+App to calculate times tables up to 15 using slider
