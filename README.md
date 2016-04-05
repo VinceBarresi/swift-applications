@@ -26,3 +26,7 @@ App to use a stopwatch
 ## Times Tables ##
 
 App to calculate times tables up to 15 using slider
+
+## Animations ##
+
+App that animates an image like a .gif
