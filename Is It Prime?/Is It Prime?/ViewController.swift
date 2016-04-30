@@ -12,30 +12,24 @@ import Foundation
 
 class ViewController: UIViewController {
 
-    
-
     @IBOutlet weak var enterNumber: UITextField!
     @IBOutlet weak var resultLabel: UILabel!
     
     @IBAction func primeButton(sender: AnyObject) {
         
         if enterNumber.text != nil {
-        
             let number:Double! = Double(enterNumber.text!)
-            
+    
             if isPrime(number) == true {
                 resultLabel.text = "Number is prime"
             } else {
                 resultLabel.text = "Number is not prime"
             }
-            
         } else {
             resultLabel.text = "Please enter a number"
         }
-    
     }
     
-
     func isPrime(number: Double) -> Bool {
         
         var i:Double = 0
@@ -53,18 +47,15 @@ class ViewController: UIViewController {
             }
             i += 2
         }
-
         return true
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
 
