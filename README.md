@@ -30,3 +30,7 @@ App to calculate times tables up to 15 using slider
 ## Animations ##
 
 App that animates an image like a .gif
+
+## Where am I? ##
+
+Geo App that displays information about where you are
