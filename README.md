@@ -34,3 +34,9 @@ App that animates an image like a .gif
 ## Where am I? ##
 
 Geo App that displays information about where you are
+
+## FF7 Main Music Theme ##
+
+Audio app that plays the main theme from Final Fantasy 7
+
+[ff7-app-theme](https://cloud.githubusercontent.com/assets/5244883/15100607/75192862-1544-11e6-91d0-0c52c391a499.png)
