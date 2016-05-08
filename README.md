@@ -39,4 +39,4 @@ Geo App that displays information about where you are
 
 Audio app that plays the main theme from Final Fantasy 7
 
-[ff7-app-theme](https://cloud.githubusercontent.com/assets/5244883/15100607/75192862-1544-11e6-91d0-0c52c391a499.png)
+[FF7 Main Music Theme Screenshot](https://cloud.githubusercontent.com/assets/5244883/15100607/75192862-1544-11e6-91d0-0c52c391a499.png)
