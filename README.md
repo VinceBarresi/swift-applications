@@ -40,3 +40,7 @@ Geo App that displays information about where you are
 Audio app that plays the main theme from Final Fantasy 7
 
 [FF7 Main Music Theme Screenshot](https://cloud.githubusercontent.com/assets/5244883/15100607/75192862-1544-11e6-91d0-0c52c391a499.png)
+
+## Shake And Swipe ##
+
+App that prints to the console when the user swipes in directions and shakes the iDevice
