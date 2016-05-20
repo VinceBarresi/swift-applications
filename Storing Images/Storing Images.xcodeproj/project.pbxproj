@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03267ADB1CEFA741009BDD21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03267ADA1CEFA741009BDD21 /* AppDelegate.swift */; };
+		03267ADD1CEFA741009BDD21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03267ADC1CEFA741009BDD21 /* ViewController.swift */; };
+		03267AE01CEFA741009BDD21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03267ADE1CEFA741009BDD21 /* Main.storyboard */; };
+		03267AE21CEFA741009BDD21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03267AE11CEFA741009BDD21 /* Assets.xcassets */; };
+		03267AE51CEFA741009BDD21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03267AE31CEFA741009BDD21 /* LaunchScreen.storyboard */; };
+		03267AF01CEFA741009BDD21 /* Storing_ImagesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03267AEF1CEFA741009BDD21 /* Storing_ImagesTests.swift */; };
+		03267AFB1CEFA741009BDD21 /* Storing_ImagesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03267AFA1CEFA741009BDD21 /* Storing_ImagesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03267AEC1CEFA741009BDD21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03267ACF1CEFA741009BDD21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03267AD61CEFA741009BDD21;
+			remoteInfo = "Storing Images";
+		};
+		03267AF71CEFA741009BDD21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03267ACF1CEFA741009BDD21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03267AD61CEFA741009BDD21;
+			remoteInfo = "Storing Images";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03267AD71CEFA741009BDD21 /* Storing Images.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Storing Images.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03267ADA1CEFA741009BDD21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03267ADC1CEFA741009BDD21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03267ADF1CEFA741009BDD21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03267AE11CEFA741009BDD21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03267AE41CEFA741009BDD21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03267AE61CEFA741009BDD21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03267AEB1CEFA741009BDD21 /* Storing ImagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Storing ImagesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03267AEF1CEFA741009BDD21 /* Storing_ImagesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storing_ImagesTests.swift; sourceTree = "<group>"; };
+		03267AF11CEFA741009BDD21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03267AF61CEFA741009BDD21 /* Storing ImagesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Storing ImagesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03267AFA1CEFA741009BDD21 /* Storing_ImagesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storing_ImagesUITests.swift; sourceTree = "<group>"; };
+		03267AFC1CEFA741009BDD21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03267AD41CEFA741009BDD21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03267AE81CEFA741009BDD21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03267AF31CEFA741009BDD21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03267ACE1CEFA741009BDD21 = {
+			isa = PBXGroup;
+			children = (
+				03267AD91CEFA741009BDD21 /* Storing Images */,
+				03267AEE1CEFA741009BDD21 /* Storing ImagesTests */,
+				03267AF91CEFA741009BDD21 /* Storing ImagesUITests */,
+				03267AD81CEFA741009BDD21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03267AD81CEFA741009BDD21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03267AD71CEFA741009BDD21 /* Storing Images.app */,
+				03267AEB1CEFA741009BDD21 /* Storing ImagesTests.xctest */,
+				03267AF61CEFA741009BDD21 /* Storing ImagesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03267AD91CEFA741009BDD21 /* Storing Images */ = {
+			isa = PBXGroup;
+			children = (
+				03267ADA1CEFA741009BDD21 /* AppDelegate.swift */,
+				03267ADC1CEFA741009BDD21 /* ViewController.swift */,
+				03267ADE1CEFA741009BDD21 /* Main.storyboard */,
+				03267AE11CEFA741009BDD21 /* Assets.xcassets */,
+				03267AE31CEFA741009BDD21 /* LaunchScreen.storyboard */,
+				03267AE61CEFA741009BDD21 /* Info.plist */,
+			);
+			path = "Storing Images";
+			sourceTree = "<group>";
+		};
+		03267AEE1CEFA741009BDD21 /* Storing ImagesTests */ = {
+			isa = PBXGroup;
+			children = (
+				03267AEF1CEFA741009BDD21 /* Storing_ImagesTests.swift */,
+				03267AF11CEFA741009BDD21 /* Info.plist */,
+			);
+			path = "Storing ImagesTests";
+			sourceTree = "<group>";
+		};
+		03267AF91CEFA741009BDD21 /* Storing ImagesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03267AFA1CEFA741009BDD21 /* Storing_ImagesUITests.swift */,
+				03267AFC1CEFA741009BDD21 /* Info.plist */,
+			);
+			path = "Storing ImagesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03267AD61CEFA741009BDD21 /* Storing Images */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03267AFF1CEFA741009BDD21 /* Build configuration list for PBXNativeTarget "Storing Images" */;
+			buildPhases = (
+				03267AD31CEFA741009BDD21 /* Sources */,
+				03267AD41CEFA741009BDD21 /* Frameworks */,
+				03267AD51CEFA741009BDD21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Storing Images";
+			productName = "Storing Images";
+			productReference = 03267AD71CEFA741009BDD21 /* Storing Images.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03267AEA1CEFA741009BDD21 /* Storing ImagesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03267B021CEFA741009BDD21 /* Build configuration list for PBXNativeTarget "Storing ImagesTests" */;
+			buildPhases = (
+				03267AE71CEFA741009BDD21 /* Sources */,
+				03267AE81CEFA741009BDD21 /* Frameworks */,
+				03267AE91CEFA741009BDD21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03267AED1CEFA741009BDD21 /* PBXTargetDependency */,
+			);
+			name = "Storing ImagesTests";
+			productName = "Storing ImagesTests";
+			productReference = 03267AEB1CEFA741009BDD21 /* Storing ImagesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03267AF51CEFA741009BDD21 /* Storing ImagesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03267B051CEFA741009BDD21 /* Build configuration list for PBXNativeTarget "Storing ImagesUITests" */;
+			buildPhases = (
+				03267AF21CEFA741009BDD21 /* Sources */,
+				03267AF31CEFA741009BDD21 /* Frameworks */,
+				03267AF41CEFA741009BDD21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03267AF81CEFA741009BDD21 /* PBXTargetDependency */,
+			);
+			name = "Storing ImagesUITests";
+			productName = "Storing ImagesUITests";
+			productReference = 03267AF61CEFA741009BDD21 /* Storing ImagesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03267ACF1CEFA741009BDD21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Barresi, Vincent";
+				TargetAttributes = {
+					03267AD61CEFA741009BDD21 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					03267AEA1CEFA741009BDD21 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 03267AD61CEFA741009BDD21;
+					};
+					03267AF51CEFA741009BDD21 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 03267AD61CEFA741009BDD21;
+					};
+				};
+			};
+			buildConfigurationList = 03267AD21CEFA741009BDD21 /* Build configuration list for PBXProject "Storing Images" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03267ACE1CEFA741009BDD21;
+			productRefGroup = 03267AD81CEFA741009BDD21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03267AD61CEFA741009BDD21 /* Storing Images */,
+				03267AEA1CEFA741009BDD21 /* Storing ImagesTests */,
+				03267AF51CEFA741009BDD21 /* Storing ImagesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03267AD51CEFA741009BDD21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03267AE51CEFA741009BDD21 /* LaunchScreen.storyboard in Resources */,
+				03267AE21CEFA741009BDD21 /* Assets.xcassets in Resources */,
+				03267AE01CEFA741009BDD21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03267AE91CEFA741009BDD21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03267AF41CEFA741009BDD21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03267AD31CEFA741009BDD21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03267ADD1CEFA741009BDD21 /* ViewController.swift in Sources */,
+				03267ADB1CEFA741009BDD21 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03267AE71CEFA741009BDD21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03267AF01CEFA741009BDD21 /* Storing_ImagesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03267AF21CEFA741009BDD21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03267AFB1CEFA741009BDD21 /* Storing_ImagesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03267AED1CEFA741009BDD21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03267AD61CEFA741009BDD21 /* Storing Images */;
+			targetProxy = 03267AEC1CEFA741009BDD21 /* PBXContainerItemProxy */;
+		};
+		03267AF81CEFA741009BDD21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03267AD61CEFA741009BDD21 /* Storing Images */;
+			targetProxy = 03267AF71CEFA741009BDD21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03267ADE1CEFA741009BDD21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03267ADF1CEFA741009BDD21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03267AE31CEFA741009BDD21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03267AE41CEFA741009BDD21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03267AFD1CEFA741009BDD21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03267AFE1CEFA741009BDD21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03267B001CEFA741009BDD21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Storing Images/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vincentbarresi.soundshaker.Storing-Images";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03267B011CEFA741009BDD21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Storing Images/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vincentbarresi.soundshaker.Storing-Images";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		03267B031CEFA741009BDD21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Storing ImagesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vincentbarresi.soundshaker.Storing-ImagesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Storing Images.app/Storing Images";
+			};
+			name = Debug;
+		};
+		03267B041CEFA741009BDD21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Storing ImagesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vincentbarresi.soundshaker.Storing-ImagesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Storing Images.app/Storing Images";
+			};
+			name = Release;
+		};
+		03267B061CEFA741009BDD21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Storing ImagesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vincentbarresi.soundshaker.Storing-ImagesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Storing Images";
+			};
+			name = Debug;
+		};
+		03267B071CEFA741009BDD21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Storing ImagesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vincentbarresi.soundshaker.Storing-ImagesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Storing Images";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03267AD21CEFA741009BDD21 /* Build configuration list for PBXProject "Storing Images" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03267AFD1CEFA741009BDD21 /* Debug */,
+				03267AFE1CEFA741009BDD21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03267AFF1CEFA741009BDD21 /* Build configuration list for PBXNativeTarget "Storing Images" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03267B001CEFA741009BDD21 /* Debug */,
+				03267B011CEFA741009BDD21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03267B021CEFA741009BDD21 /* Build configuration list for PBXNativeTarget "Storing ImagesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03267B031CEFA741009BDD21 /* Debug */,
+				03267B041CEFA741009BDD21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03267B051CEFA741009BDD21 /* Build configuration list for PBXNativeTarget "Storing ImagesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03267B061CEFA741009BDD21 /* Debug */,
+				03267B071CEFA741009BDD21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03267ACF1CEFA741009BDD21 /* Project object */;
+}
