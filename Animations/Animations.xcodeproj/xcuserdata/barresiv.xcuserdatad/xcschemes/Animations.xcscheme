@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0730"
+   LastUpgradeVersion = "0720"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0374969E1CEF98E6007BFB8B"
-               BuildableName = "Core Data Demo.app"
-               BlueprintName = "Core Data Demo"
-               ReferencedContainer = "container:Core Data Demo.xcodeproj">
+               BlueprintIdentifier = "E2597CA61CB33300004568DE"
+               BuildableName = "Animations.app"
+               BlueprintName = "Animations"
+               ReferencedContainer = "container:Animations.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,34 +28,14 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "037496B51CEF98E6007BFB8B"
-               BuildableName = "Core Data DemoTests.xctest"
-               BlueprintName = "Core Data DemoTests"
-               ReferencedContainer = "container:Core Data Demo.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "037496C01CEF98E6007BFB8B"
-               BuildableName = "Core Data DemoUITests.xctest"
-               BlueprintName = "Core Data DemoUITests"
-               ReferencedContainer = "container:Core Data Demo.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0374969E1CEF98E6007BFB8B"
-            BuildableName = "Core Data Demo.app"
-            BlueprintName = "Core Data Demo"
-            ReferencedContainer = "container:Core Data Demo.xcodeproj">
+            BlueprintIdentifier = "E2597CA61CB33300004568DE"
+            BuildableName = "Animations.app"
+            BlueprintName = "Animations"
+            ReferencedContainer = "container:Animations.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0374969E1CEF98E6007BFB8B"
-            BuildableName = "Core Data Demo.app"
-            BlueprintName = "Core Data Demo"
-            ReferencedContainer = "container:Core Data Demo.xcodeproj">
+            BlueprintIdentifier = "E2597CA61CB33300004568DE"
+            BuildableName = "Animations.app"
+            BlueprintName = "Animations"
+            ReferencedContainer = "container:Animations.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0374969E1CEF98E6007BFB8B"
-            BuildableName = "Core Data Demo.app"
-            BlueprintName = "Core Data Demo"
-            ReferencedContainer = "container:Core Data Demo.xcodeproj">
+            BlueprintIdentifier = "E2597CA61CB33300004568DE"
+            BuildableName = "Animations.app"
+            BlueprintName = "Animations"
+            ReferencedContainer = "container:Animations.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
