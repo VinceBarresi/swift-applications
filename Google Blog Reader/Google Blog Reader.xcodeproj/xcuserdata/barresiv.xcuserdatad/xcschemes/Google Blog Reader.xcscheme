@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0374969E1CEF98E6007BFB8B"
-               BuildableName = "Core Data Demo.app"
-               BlueprintName = "Core Data Demo"
-               ReferencedContainer = "container:Core Data Demo.xcodeproj">
+               BlueprintIdentifier = "034E302C1CF38F66007B2D4B"
+               BuildableName = "Google Blog Reader.app"
+               BlueprintName = "Google Blog Reader"
+               ReferencedContainer = "container:Google Blog Reader.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,34 +28,14 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "037496B51CEF98E6007BFB8B"
-               BuildableName = "Core Data DemoTests.xctest"
-               BlueprintName = "Core Data DemoTests"
-               ReferencedContainer = "container:Core Data Demo.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "037496C01CEF98E6007BFB8B"
-               BuildableName = "Core Data DemoUITests.xctest"
-               BlueprintName = "Core Data DemoUITests"
-               ReferencedContainer = "container:Core Data Demo.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0374969E1CEF98E6007BFB8B"
-            BuildableName = "Core Data Demo.app"
-            BlueprintName = "Core Data Demo"
-            ReferencedContainer = "container:Core Data Demo.xcodeproj">
+            BlueprintIdentifier = "034E302C1CF38F66007B2D4B"
+            BuildableName = "Google Blog Reader.app"
+            BlueprintName = "Google Blog Reader"
+            ReferencedContainer = "container:Google Blog Reader.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0374969E1CEF98E6007BFB8B"
-            BuildableName = "Core Data Demo.app"
-            BlueprintName = "Core Data Demo"
-            ReferencedContainer = "container:Core Data Demo.xcodeproj">
+            BlueprintIdentifier = "034E302C1CF38F66007B2D4B"
+            BuildableName = "Google Blog Reader.app"
+            BlueprintName = "Google Blog Reader"
+            ReferencedContainer = "container:Google Blog Reader.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0374969E1CEF98E6007BFB8B"
-            BuildableName = "Core Data Demo.app"
-            BlueprintName = "Core Data Demo"
-            ReferencedContainer = "container:Core Data Demo.xcodeproj">
+            BlueprintIdentifier = "034E302C1CF38F66007B2D4B"
+            BuildableName = "Google Blog Reader.app"
+            BlueprintName = "Google Blog Reader"
+            ReferencedContainer = "container:Google Blog Reader.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
