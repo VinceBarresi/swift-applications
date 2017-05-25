@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Blog Reader.xcscheme</key>
+		<key>FF7.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>030544B01CF38CB60057F459</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>030544C41CF38CB70057F459</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>030544CF1CF38CB70057F459</key>
+		<key>E26487F81CDFC239007127BA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
